@@ -1,4 +1,4 @@
-package com.hamitmizrak.dto;
+package com.hamitmizrak.test;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
