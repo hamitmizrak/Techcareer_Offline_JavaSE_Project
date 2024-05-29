@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b21f4ed-3511-47a9-9699-240af802b5fd" name="Changes" comment="File Path">
+    <list default="true" id="8b21f4ed-3511-47a9-9699-240af802b5fd" name="Changes" comment="File Create&#10;File Writer&#10;File Reader">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/files/FilePathDataImplements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/files/FilePathDataImplements.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/files/IFileLogTech.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/files/IFileLogTech.java" afterDir="false" />
@@ -122,7 +122,7 @@
       <option name="presentableId" value="Default" />
       <updated>1716974859480</updated>
       <workItem from="1716974860597" duration="5122000" />
-      <workItem from="1716996046480" duration="2230000" />
+      <workItem from="1716996046480" duration="5067000" />
     </task>
     <task id="LOCAL-00001" summary="Lombok">
       <option name="closed" value="true" />
@@ -172,7 +172,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716978397525</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="File Create&#10;File Writer&#10;File Reader">
+      <option name="closed" value="true" />
+      <created>1716999349935</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1716999349935</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,7 +192,8 @@
     <MESSAGE value="Lombok" />
     <MESSAGE value="Rolles" />
     <MESSAGE value="File Path" />
-    <option name="LAST_COMMIT_MESSAGE" value="File Path" />
+    <MESSAGE value="File Create&#10;File Writer&#10;File Reader" />
+    <option name="LAST_COMMIT_MESSAGE" value="File Create&#10;File Writer&#10;File Reader" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -196,12 +205,21 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/hamitmizrak/files/FilePathDataImplements.java</url>
-          <line>54</line>
+          <line>52</line>
           <properties class="com.hamitmizrak.files.FilePathDataImplements" method="logTechLocalDateTime">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hamitmizrak/files/FilePathDataImplements.java</url>
+          <line>144</line>
+          <properties class="com.hamitmizrak.files.FilePathDataImplements" method="logTechFileDelete">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -1,6 +1,6 @@
 package com.hamitmizrak.files;
 
-import java.util.List;
+import java.io.File;
 
 public interface IFileLogTech {
 
@@ -8,13 +8,13 @@ public interface IFileLogTech {
     public String logTechLocalDateTime();
 
     //logTechFileInformation
-    public String logTechFileInformation();
+    public void logTechFileInformation();
 
     //logTechFileCreate
-    public String logTechFileCreate(String fileName);
+    public void logTechFileCreate(String fileName);
 
     //logTechFileList
-    public List<String> logTechFileList();
+    public File[] logTechFileList();
 
     //logTechFileWriter
     public void logTechFileWriter(String username, String password);
@@ -23,5 +23,5 @@ public interface IFileLogTech {
     public void logTechFileReader();
 
     //logTechFileDelete
-    public String logTechFileDelete(String fileName);
+    public void logTechFileDelete();
 }
