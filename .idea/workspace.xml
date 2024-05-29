@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b21f4ed-3511-47a9-9699-240af802b5fd" name="Changes" comment="Readme.md">
+    <list default="true" id="8b21f4ed-3511-47a9-9699-240af802b5fd" name="Changes" comment="File Path">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/files/FilePathDataImplements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/files/FilePathDataImplements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/files/IFileLogTech.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/files/IFileLogTech.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +17,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -22,21 +25,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "hamitmizrak"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;hamitmizrak&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/hamitmizrak/Techcareer_Offline_JavaSE_Project.git",
-    "accountId": "781b8bda-e050-4c99-98fd-ce665e165d23"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/hamitmizrak/Techcareer_Offline_JavaSE_Project.git&quot;,
+    &quot;accountId&quot;: &quot;781b8bda-e050-4c99-98fd-ce665e165d23&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2h8TkDTOKiFfKcOtyjJ6d1QSJAI" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -48,6 +51,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Deneme.executor": "Run",
+    "Application.FilePathDataImplements.executor": "Run",
     "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -58,17 +62,35 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "F:/Spring  Java SE/Techcareer_Offline_JavaSE_Project/src/main/java/com/hamitmizrak/Main.java",
-    "settings.editor.selected.configurable": "preferences.editor",
+    "settings.editor.selected.configurable": "editor.preferences.tabs",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="LombokDeneme" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hamitmizrak.dto.LombokDeneme" />
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hamitmizrak.exception" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.FilePathDataImplements">
+    <configuration name="FilePathDataImplements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hamitmizrak.files.FilePathDataImplements" />
       <module name="Techcareer_Offline_JavaSE_Project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hamitmizrak.dto.*" />
+          <option name="PATTERN" value="com.hamitmizrak.files.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LombokDeneme" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hamitmizrak.test.LombokDeneme" />
+      <module name="Techcareer_Offline_JavaSE_Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hamitmizrak.roles.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,6 +100,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FilePathDataImplements" />
         <item itemvalue="Application.LombokDeneme" />
       </list>
     </recent_temporary>
@@ -98,7 +121,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1716974859480</updated>
-      <workItem from="1716974860597" duration="1436000" />
+      <workItem from="1716974860597" duration="5122000" />
+      <workItem from="1716996046480" duration="2230000" />
     </task>
     <task id="LOCAL-00001" summary="Lombok">
       <option name="closed" value="true" />
@@ -116,16 +140,51 @@
       <option name="project" value="LOCAL" />
       <updated>1716976083351</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Exception">
+      <option name="closed" value="true" />
+      <created>1716978353305</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1716978353305</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Lombok">
+      <option name="closed" value="true" />
+      <created>1716978374732</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1716978374732</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Rolles">
+      <option name="closed" value="true" />
+      <created>1716978385502</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1716978385502</updated>
+    </task>
+    <task id="LOCAL-00006" summary="File Path">
+      <option name="closed" value="true" />
+      <created>1716978397525</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1716978397525</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Lombok" />
     <MESSAGE value="Readme.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Readme.md" />
+    <MESSAGE value="Exception" />
+    <MESSAGE value="Lombok" />
+    <MESSAGE value="Rolles" />
+    <MESSAGE value="File Path" />
+    <option name="LAST_COMMIT_MESSAGE" value="File Path" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -134,6 +193,15 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/hamitmizrak/Main.java</url>
           <line>13</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hamitmizrak/files/FilePathDataImplements.java</url>
+          <line>54</line>
+          <properties class="com.hamitmizrak.files.FilePathDataImplements" method="logTechLocalDateTime">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

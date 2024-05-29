@@ -17,10 +17,10 @@ public interface IFileLogTech {
     public List<String> logTechFileList();
 
     //logTechFileWriter
-    public String logTechFileWriter(String fileName);
+    public void logTechFileWriter(String username, String password);
 
     //logTechFileReader
-    public String logTechFileReader(String fileName);
+    public void logTechFileReader();
 
     //logTechFileDelete
     public String logTechFileDelete(String fileName);
