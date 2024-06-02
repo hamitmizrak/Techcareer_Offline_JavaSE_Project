@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8b21f4ed-3511-47a9-9699-240af802b5fd" name="Changes" comment="File Create&#10;File Writer&#10;File Reader">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/files/FilePathDataImplements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/files/FilePathDataImplements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/files/IFileLogTech.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/files/IFileLogTech.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,12 +29,12 @@
     &quot;assignee&quot;: &quot;hamitmizrak&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/hamitmizrak/Techcareer_Offline_JavaSE_Project.git&quot;,
-    &quot;accountId&quot;: &quot;781b8bda-e050-4c99-98fd-ce665e165d23&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/hamitmizrak/Techcareer_Offline_JavaSE_Project.git",
+    "accountId": "876df831-5811-4b30-b588-6450f32aeb88"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -62,6 +60,9 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "F:/Spring  Java SE/Techcareer_Offline_JavaSE_Project/src/main/java/com/hamitmizrak/Main.java",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "editor.preferences.tabs",
     "vue.rearranger.settings.migration": "true"
   }
@@ -123,6 +124,8 @@
       <updated>1716974859480</updated>
       <workItem from="1716974860597" duration="5122000" />
       <workItem from="1716996046480" duration="5067000" />
+      <workItem from="1717007134574" duration="1464000" />
+      <workItem from="1717324861618" duration="14000" />
     </task>
     <task id="LOCAL-00001" summary="Lombok">
       <option name="closed" value="true" />
