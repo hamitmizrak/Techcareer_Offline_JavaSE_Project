@@ -124,10 +124,19 @@ public class FilePathDataImplements implements IFileLogTech {
     //READER
     @Override
     public void logTechFileReader() {
+
+        Scanner scanner=new Scanner(System.in);
+        logTechFileList();
+        System.out.println("Lütfen okumak istediğiniz dosya adını yazınız");
+        String fileName=scanner.nextLine().concat(".txt");
+        String url=fileDirectoryName.concat("\\").concat(fileName);
+        System.out.println("Dosya uzantısı: "+url);
+
+
         String rows;// okunan satır
         StringBuilder builder = new StringBuilder();
         String builderToString;
-        try (BufferedReader br = new BufferedReader(new FileReader(this.url))) {
+        try (BufferedReader br = new BufferedReader(new FileReader(url))) {
             while ((rows = br.readLine()) != null) {
                 builder.append(rows).append("\n");
             }

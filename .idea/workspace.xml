@@ -4,8 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b21f4ed-3511-47a9-9699-240af802b5fd" name="Changes" comment="File Create&#10;File Writer&#10;File Reader">
+    <list default="true" id="8b21f4ed-3511-47a9-9699-240af802b5fd" name="Changes" comment="Revize">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/controller/RegisterController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/dao/IDaoGenerics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/dao/RegisterDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/dto/BaseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/dto/RegisterDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/files/FilePathDataImplements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hamitmizrak/files/FilePathDataImplements.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +58,7 @@
     "Application.Deneme.executor": "Run",
     "Application.FilePathDataImplements.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.RegisterDto.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
@@ -72,7 +80,7 @@
       <recent name="com.hamitmizrak.exception" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FilePathDataImplements">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="FilePathDataImplements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hamitmizrak.files.FilePathDataImplements" />
       <module name="Techcareer_Offline_JavaSE_Project" />
@@ -99,8 +107,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hamitmizrak.Main" />
+      <module name="Techcareer_Offline_JavaSE_Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hamitmizrak.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegisterDto" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hamitmizrak.dto.RegisterDto" />
+      <module name="Techcareer_Offline_JavaSE_Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hamitmizrak.dto.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.RegisterDto" />
         <item itemvalue="Application.FilePathDataImplements" />
         <item itemvalue="Application.LombokDeneme" />
       </list>
@@ -125,7 +161,7 @@
       <workItem from="1716974860597" duration="5122000" />
       <workItem from="1716996046480" duration="5067000" />
       <workItem from="1717007134574" duration="1464000" />
-      <workItem from="1717324861618" duration="14000" />
+      <workItem from="1717324861618" duration="5899000" />
     </task>
     <task id="LOCAL-00001" summary="Lombok">
       <option name="closed" value="true" />
@@ -183,7 +219,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716999349935</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Revize">
+      <option name="closed" value="true" />
+      <created>1717324951365</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1717324951365</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,15 +240,26 @@
     <MESSAGE value="Rolles" />
     <MESSAGE value="File Path" />
     <MESSAGE value="File Create&#10;File Writer&#10;File Reader" />
-    <option name="LAST_COMMIT_MESSAGE" value="File Create&#10;File Writer&#10;File Reader" />
+    <MESSAGE value="Revize" />
+    <option name="LAST_COMMIT_MESSAGE" value="Revize" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/hamitmizrak/Main.java</url>
-          <line>13</line>
+          <line>11</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hamitmizrak/files/FilePathDataImplements.java</url>
+          <line>154</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hamitmizrak/files/FilePathDataImplements.java</url>
+          <line>102</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/hamitmizrak/files/FilePathDataImplements.java</url>
@@ -217,7 +272,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/hamitmizrak/files/FilePathDataImplements.java</url>
-          <line>144</line>
+          <line>153</line>
           <properties class="com.hamitmizrak.files.FilePathDataImplements" method="logTechFileDelete">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
